@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,400;1,700&family=Playfair+Display:ital@1&family=Poppins:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.dontone,
+.donttwo,
+.dontthree {
+    position: absolute;
+    background-color: rgb(34, 30, 38, 0.8);
+    color: white;
+    top: 70%;
+    left: 0;
+    right: 0;
+}
+
+.overflowfirst {
+    overflow: hidden;
+    box-shadow: 0px 10px 20px rgba(97, 97, 126, 0.6);
+}
+
+.dontone:hover {
+    transform: translateY(-167px);
+    transition: all 0.3s linear;
+}
+
+.donttwo:hover {
+    transform: translateY(-170px);
+    transition: all 0.3s linear;
+}
+
+.dontthree:hover {
+    transform: translateY(-165px);
+    transition: all 0.3s linear;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black
+}
+
+.children i {
+    font-size: 70px;
+    color: white;
+}
+
+.house i {
+    font-size: 70px;
+    color: white;
+}
